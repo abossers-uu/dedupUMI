@@ -1,5 +1,5 @@
 # Deduplicate fastq sequences using UMI's
-Simple *quick and dirty* script that will deduplicate fastq sequences using UMI sequences.  
+Simple **quick and dirty** script that will deduplicate fastq sequences using UMI sequences.  
 
 Latest version allows for input of just R1 and R2 where the UMI should be available in the fastq header (new format).  
 This is handled automatically such if only two Rx files are provided.
