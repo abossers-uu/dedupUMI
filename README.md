@@ -1,6 +1,8 @@
 # Deduplicate fastq sequences using UMI's
-Simple **quick and dirty** script that will deduplicate fastq sequences using UMI sequences without having to align the reads to a reference first.
-Handling time is roughly I/O time. It writes out the best total quality read-pair from de duplicate set.
+Simple **quick and dirty** script that will deduplicate fastq sequences using UMI sequences without having to align the reads to a reference first. Exact 
+duplicates (incl UMI) are typically the result of over-amplification / too many amplification cycles in sequence library prepping.  
+
+Handling time is roughly I/O time. It writes out the best total-quality read-pair from de exact-duplicated set.
 
 Latest version allows for input of just R1 and R2 where the UMI should be available in the fastq header (new format). R3 system is still supported as Wel.  
 This R2 or R3 system is handled automatically if two or three Rx files are provided respectively.  
