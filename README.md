@@ -3,6 +3,8 @@
 Please visit the new location: https://github.com/alxelerator/dedupUMI
 
 
+
+
 # Deduplicate fastq sequences using UMI's
 Simple **quick and dirty** script that will deduplicate fastq sequences using UMI sequences without having to align the reads to a reference first. Exact 
 duplicates (incl UMI) are typically the result of over-amplification / too many amplification cycles in sequence library prepping.  
